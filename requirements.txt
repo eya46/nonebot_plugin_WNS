@@ -1,0 +1,2 @@
+nonebot2>=2.0.0-beta.1
+pydantic~=1.10.4
