@@ -13,6 +13,7 @@ class Config(BaseModel):
         "必应国际": [{"bing国际", "国际必应"}, "https://cn.bing.com/search?q={}&ensearch=1"],
         "搜狗": [{"sougou"}, "https://www.sogou.com/web?query={}"],
         "B站": [{"bilibili"}, "https://search.bilibili.com/all?keyword={}"],
+        "python":[{"python3","py文档"},"https://docs.python.org/zh-cn/3.11/search.html?q={}"],
         # 不包含问题
         "nonebot": [{"nb", "nonebot2", "nb2"}, "https://v2.nonebot.dev/docs"]
     })
