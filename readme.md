@@ -24,13 +24,17 @@
 
 回复消息，并带上 [(默认响应)](#默认响应)
 
-![](show.jpg)
+![用法示例](show.jpg)
 
-[//]: # (## 安装)
+## 安装
 
-[//]: # ()
 
-[//]: # (pip install nonebot-plugin-WNS)
+```
+git clone https://github.com/eya46/nonebot_plugin_WNS
+# 然后把插件文件夹复制进插件目录
+```
+> ~~pip install nonebot-plugin-WNS~~
+> 还没传到pip呢o.O
 
 ## 配置
 
@@ -43,7 +47,7 @@
 |      名称      |     默认值      |    描述    |
 |:------------:|:------------:|:--------:|
 |   wns_raw    | [默认值](#默认响应) |   默认响应   |
-|  wns_search  |     None     | 配置的响应命令  |
+|  wns_search  |      {}      | 配置的响应命令  |
 |  wns_block   |    False     | 是否阻止向下传播 |
 | wns_priority |      99      |   优先级    |
 
