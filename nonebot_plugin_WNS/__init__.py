@@ -18,4 +18,4 @@ async def wns_handle(event: MessageEvent):
     command = event.message.extract_plain_text().strip()
     message = event.reply.message
     url = config.get_url(command)
-    await wns.finish(None if url is None else url.format(quote(message.extract_plain_text().strip(), "utf-8")))
+    await wns.finish(url.format(quote(message.extract_plain_text().strip(), "utf-8") if url else url))
